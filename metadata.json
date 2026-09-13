@@ -1,0 +1,8 @@
+{
+  "name": "登山導航與地圖應用進階 - 登山教育教材",
+  "description": "第十二章：登山導航與地圖應用進階。完整學習登山導航與地圖判讀，理解等高線、座標系統、GPS、GPX、離線地圖與 STOP 迷途處理原則，建立多元導航與山域安全判斷能力。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
