@@ -64,19 +64,23 @@ export default function App() {
       {/* Top Global Navigation Bar */}
       <header className="sticky top-0 z-40 w-full border-b border-slate-800/90 bg-[#0d131a]/95 backdrop-blur-md">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 h-14 flex items-center justify-between">
-          <div className="flex items-center gap-2.5 sm:gap-3">
-            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-950 border border-emerald-700/60 text-emerald-400">
+          <a
+            href="https://amazon-hike.com/"
+            className="flex items-center gap-2.5 sm:gap-3 group focus:outline-none"
+            title="亞馬遜國家山岳協會"
+          >
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-950 border border-emerald-700/60 text-emerald-400 group-hover:border-emerald-500 transition-colors">
               <Compass className="h-4 w-4 animate-spin-slow" />
             </div>
             <div className="flex flex-col">
-              <span className="text-xs font-bold text-slate-100 tracking-wide">
+              <span className="text-xs font-bold text-slate-100 tracking-wide group-hover:text-emerald-300 transition-colors">
                 亞馬遜國家山岳協會
               </span>
               <span className="text-[10px] text-emerald-400/90 font-mono">
                 登山教育教材｜第十二章
               </span>
             </div>
-          </div>
+          </a>
 
           <div className="flex items-center gap-3">
             <div className="hidden sm:flex items-center gap-2 text-xs font-mono text-slate-300">
@@ -94,9 +98,9 @@ export default function App() {
       <main className="max-w-4xl mx-auto px-4 sm:px-6 pt-8 sm:pt-12">
         {/* Breadcrumb Navigation */}
         <nav aria-label="麵包屑導航" className="mb-6 flex items-center gap-2 text-xs text-slate-300 font-mono">
-          <span>首頁</span>
+          <a href="https://amazon-hike.com/" className="hover:text-emerald-400 transition-colors">首頁</a>
           <ChevronRight className="h-3.5 w-3.5 text-slate-600" />
-          <span>登山教育</span>
+          <a href="https://amazon-hike.com/intro" className="hover:text-emerald-400 transition-colors">登山教育</a>
           <ChevronRight className="h-3.5 w-3.5 text-slate-600" />
           <span className="text-emerald-400 font-medium">第十二章：登山導航與地圖應用進階</span>
         </nav>

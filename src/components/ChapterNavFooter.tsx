@@ -53,10 +53,13 @@ export const ChapterNavFooter: React.FC = () => {
       <footer className="rounded-2xl border border-slate-800/80 bg-[#0d131a] p-6 sm:p-8 text-xs text-slate-300">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 border-b border-slate-800 pb-6">
           <div>
-            <div className="flex items-center gap-2 text-slate-100 font-black text-base tracking-wide">
+            <a
+              href="https://amazon-hike.com/"
+              className="inline-flex items-center gap-2 text-slate-100 font-black text-base tracking-wide hover:text-emerald-400 transition-colors"
+            >
               <BookOpen className="h-5 w-5 text-emerald-400" />
               <span>亞馬遜國家山岳協會｜國家登山教育與山域安全教材體系</span>
-            </div>
+            </a>
             <p className="text-slate-300 mt-1">
               本教材由亞馬遜國家山岳協會教材編審委員會嚴格制定，旨在提升國人自主登山安全素養與野外生存決策能力。
             </p>
