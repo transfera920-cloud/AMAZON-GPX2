@@ -72,14 +72,9 @@ export default function App() {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-emerald-950 border border-emerald-700/60 text-emerald-400 group-hover:border-emerald-500 transition-colors">
               <Compass className="h-4 w-4 animate-spin-slow" />
             </div>
-            <div className="flex flex-col">
-              <span className="text-xs font-bold text-slate-100 tracking-wide group-hover:text-emerald-300 transition-colors">
-                亞馬遜國家山岳協會
-              </span>
-              <span className="text-[10px] text-emerald-400/90 font-mono">
-                登山教育教材｜第十二章
-              </span>
-            </div>
+            <span className="text-sm font-bold text-slate-100 tracking-wide group-hover:text-emerald-300 transition-colors">
+              亞馬遜國家山岳協會
+            </span>
           </a>
 
           <div className="flex items-center gap-3">
@@ -96,15 +91,6 @@ export default function App() {
 
       {/* Main Container */}
       <main className="max-w-4xl mx-auto px-4 sm:px-6 pt-8 sm:pt-12">
-        {/* Breadcrumb Navigation */}
-        <nav aria-label="麵包屑導航" className="mb-6 flex items-center gap-2 text-xs text-slate-300 font-mono">
-          <a href="https://amazon-hike.com/" className="hover:text-emerald-400 transition-colors">首頁</a>
-          <ChevronRight className="h-3.5 w-3.5 text-slate-600" />
-          <a href="https://amazon-hike.com/intro" className="hover:text-emerald-400 transition-colors">登山教育</a>
-          <ChevronRight className="h-3.5 w-3.5 text-slate-600" />
-          <span className="text-emerald-400 font-medium">第十二章：登山導航與地圖應用進階</span>
-        </nav>
-
         {/* ================================================== */}
         {/* 1. CHAPTER HERO */}
         {/* ================================================== */}
@@ -121,23 +107,8 @@ export default function App() {
           </div>
 
           <div className="relative z-10">
-            <div className="flex flex-wrap items-center gap-2.5 mb-4">
-              <span className="rounded-md bg-emerald-950/90 border border-emerald-600/60 px-3 py-1 text-xs font-mono font-bold text-emerald-300 tracking-wider">
-                CHAPTER 12
-              </span>
-              <span className="rounded-md bg-slate-800/80 border border-slate-700 px-3 py-1 text-xs text-slate-300 flex items-center gap-1.5">
-                <BookOpen className="h-3.5 w-3.5 text-slate-400" /> 核心安全能力教程
-              </span>
-              <span className="rounded-md bg-slate-800/80 border border-slate-700 px-3 py-1 text-xs text-slate-300 flex items-center gap-1.5 font-mono">
-                <Clock className="h-3.5 w-3.5 text-slate-400" /> 預估研讀時間：25 分鐘
-              </span>
-            </div>
-
-            <h1 className="text-3xl sm:text-5xl font-black text-slate-100 tracking-tight leading-tight">
-              第十二章<br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-teal-200 to-sky-300">
-                登山導航與地圖應用進階
-              </span>
+            <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-teal-200 to-sky-300">
+              登山導航與地圖應用進階
             </h1>
 
             {/* Core Golden Rule Quote */}
@@ -150,7 +121,6 @@ export default function App() {
                   <ShieldCheck className="h-4 w-4" />
                   <span>核心理念：導航能力 = 安全能力</span>
                 </div>
-                <span className="text-xs text-slate-300">亞馬遜國家山岳協會教材編審組</span>
               </div>
             </div>
 

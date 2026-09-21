@@ -33,7 +33,7 @@ export const QuickToc: React.FC = () => {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2.5 text-emerald-400">
           <Compass className="h-5 w-5" />
-          <h3 className="text-base font-bold text-slate-100">本章研讀目錄（Table of Contents）</h3>
+          <p className="text-base font-bold text-slate-100">本章研讀目錄（Table of Contents）</p>
         </div>
         <button
           type="button"

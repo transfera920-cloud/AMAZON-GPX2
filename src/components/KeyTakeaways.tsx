@@ -74,9 +74,9 @@ export const KeyTakeaways: React.FC = () => {
           </span>
           <span className="h-px flex-1 bg-slate-700/60"></span>
         </div>
-        <h3 className="text-xl sm:text-2xl font-black text-slate-100 mt-1">
+        <h2 className="text-xl sm:text-2xl font-black text-slate-100 mt-1">
           第十節｜本章核心重點整理：登山導航十項核心法則
-        </h3>
+        </h2>
         <p className="text-sm text-slate-300 mt-1">
           將十項安全心法內化為登山本能反射。每一次入山，都是這十項原則的實踐檢驗。
         </p>
@@ -95,9 +95,9 @@ export const KeyTakeaways: React.FC = () => {
               </div>
               <div className="flex-1">
                 <div className="flex flex-wrap items-baseline gap-2">
-                  <h4 className="text-base font-bold text-slate-100 group-hover:text-emerald-300 transition-colors">
+                  <h3 className="text-base font-bold text-slate-100 group-hover:text-emerald-300 transition-colors">
                     {item.title}
-                  </h4>
+                  </h3>
                 </div>
                 <div className="mt-1 inline-block text-xs font-semibold text-amber-300 bg-amber-950/40 px-2 py-0.5 rounded border border-amber-800/40">
                   ▍{item.coreRule}
