@@ -107,6 +107,11 @@ export default function App() {
           </div>
 
           <div className="relative z-10">
+            <div className="mb-3">
+              <span className="inline-flex items-center rounded-full bg-slate-800/80 border border-slate-700/80 px-2.5 py-0.5 text-xs font-medium text-slate-400">
+                第十二章
+              </span>
+            </div>
             <h1 className="text-3xl sm:text-5xl font-black tracking-tight leading-tight text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-teal-200 to-sky-300">
               登山導航與地圖應用進階
             </h1>
